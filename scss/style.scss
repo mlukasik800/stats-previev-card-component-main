@@ -95,11 +95,109 @@ body {
 
 }
 
+@media(max-width: 1440px) {
+    .project {
+        // flex-direction: column-reverse;
+        // max-width: 90vw;
+
+
+    }
+
+    .left {
+        width: 50vw;
+        height: auto;
+        // border-radius: 0 0 2% 2%;
+        height: 55vh;
+
+        &__header {
+            font-size: 32px;
+            text-align: center;
+        }
+
+        &__content {
+            font-size: 22px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+        }
+
+        &__stats {
+            text-align: center;
+            // flex-direction: column;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        &__list {
+
+            &-number {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .right {
+        &__img {
+            // width: 80vw;
+            // border-radius: 2% 2% 0 0;
+        }
+    }
+}
+
+@media(max-width: 1280px) {
+    .project {
+        // flex-direction: column-reverse;
+        // max-width: 90vw;
+
+
+    }
+
+    .left {
+        width: 50vw;
+        height: auto;
+        // border-radius: 0 0 2% 2%;
+        height: 55vh;
+
+        &__header {
+            font-size: 32px;
+            text-align: center;
+        }
+
+        &__content {
+            font-size: 22px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+        }
+
+        &__stats {
+            text-align: center;
+            // flex-direction: column;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        &__list {
+
+            &-number {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .right {
+        &__img {
+            // width: 80vw;
+            // border-radius: 2% 2% 0 0;
+        }
+    }
+}
 
 @media(max-width: 1024px) {
     .project {
         flex-direction: column-reverse;
         max-width: 90vw;
+        height: 140vh;
 
 
     }
@@ -110,12 +208,12 @@ body {
         border-radius: 0 0 2% 2%;
 
         &__header {
-            font-size: 62px;
+            font-size: 42px;
             text-align: center;
         }
 
         &__content {
-            font-size: 32px;
+            font-size: 26px;
             letter-spacing: 1px;
             font-weight: 200;
             text-align: center;
@@ -124,14 +222,16 @@ body {
         &__stats {
             text-align: center;
             flex-direction: column;
-            font-size: 32px;
-            margin-bottom: 20px;
+            font-size: 22px;
+            margin: 0 auto;
+            margin-bottom: 15px;
+
         }
 
         &__list {
 
             &-number {
-                font-size: 35px;
+                font-size: 15px;
             }
         }
     }
@@ -192,7 +292,7 @@ body {
     }
 }
 
-@media(max-width: 414px) {
+@media(max-width: 500px) {
     .project {
         flex-direction: column-reverse;
         min-height: 130vh;
@@ -236,6 +336,7 @@ body {
 
         .right {
             margin: 0 auto;
+            margin-bottom: 20px;
 
             &__img {
                 height: 20%;
